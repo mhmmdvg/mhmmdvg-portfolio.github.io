@@ -7,5 +7,5 @@ h1{
 .header {
     height: fit-content;
     width: fit-content;
-    color: yellow;
+    background-color: yellow;
 }
