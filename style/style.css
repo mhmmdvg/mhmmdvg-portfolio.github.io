@@ -1,0 +1,17 @@
+.navbar{
+    background-color: #5C33F6;
+    color: #fff;
+}
+
+.jumbotron{
+    padding: 2rem 1rem;
+    background-color: #5C33F6;
+    color: #fff;
+}
+
+.btn{
+    border-radius: 24px!important;
+    height: 50%;
+    width: 20;
+    font-size: 12px!important;
+}
