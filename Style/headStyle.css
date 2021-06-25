@@ -1,4 +1,4 @@
-h1{
+.h1{
     font-family: 'Open Sans', sans-serif;
     font-size: large;
     color: black;
@@ -8,4 +8,18 @@ h1{
     height: fit-content;
     width: fit-content;
     background-color: yellow;
+}
+
+.box {
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    color: yellow;
+}
+
+.box2{
+    height: 20px;
+    width: 20px;
+    color: #000;
+    background-color: #000;
 }
