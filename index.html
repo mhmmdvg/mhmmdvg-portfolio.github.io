@@ -6,16 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- My CSS -->
-    <link href="style/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Muhammad Vikri</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -57,28 +54,28 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-8">
-            <h3>
+            <h3 data-aos="fade-down">
               Hello! I'm Muhammad Vikri<br />
               I'm Designer and Programmer
             </h3>
-            <p class="mb-5">Let's collaborate with me</p>
-            <button type="button" class="btn btn-dark btn-lg">
+            <p class="mb-5" data-aos="fade-up-right">Let's collaborate with me</p>
+            <button type="button" class="btn btn-dark btn-lg" data-aos="fade-up-right">
               Let's Work
             </button>
             <button
               type="button"
-              class="btn btn-light border-dark border-1 ms-2 btn-lg"
+              class="btn btn-light border-dark border-1 ms-2 btn-lg" data-aos="fade-up-left"
             >
               See my Work
             </button>
           </div>
           <div class="col-md-4">
-            <img src="img/freelancer.png" height="450" alt="Vikri" />
+            <img src="img/freelancer.png" height="500" alt="Vikri" data-aos="fade-up-left"/>
           </div>
         </div>
-        <ion-icon class="ms-2" name="logo-instagram"></ion-icon>
-        <ion-icon class="ms-4" name="logo-google"></ion-icon>
-        <ion-icon class="ms-4" name="logo-github"></ion-icon>
+        <ion-icon class="ms-2" name="logo-instagram" data-aos="fade-up"></ion-icon>
+        <ion-icon class="ms-4" name="logo-google" data-aos="fade-up"></ion-icon>
+        <ion-icon class="ms-4" name="logo-github" data-aos="fade-up"></ion-icon>
       </div>
     </section>
     <!-- Jumbotron -->
@@ -88,12 +85,20 @@
       <div class="container">
         <div class="row text-center">
           <div class="col">
-            <h3 style="color: #5c33f6">About Me</h3>
+            <h3 data-aos="fade-down">About Me</h3>
           </div>
         </div>
-        <div class="row ms-1 mt-5">
-          <div class="col">
-            <p style="color: #5c33f6;">
+        <div class="row ms-1 mt-5 justify-content-around align-items-start">
+          <div class="col-4">
+            <img data-aos="fade-up-right"
+              src="img/photo4.JPG"
+              class="rounded-circle img-thumbnail"
+              width="400"
+              alt="Vikri jco"
+            />
+          </div>
+          <div class="col-7">
+            <p data-aos="fade-up-left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -103,26 +108,28 @@
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-          <div class="col">
-            <p style="color: #5c33f6;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
         </div>
       </div>
     </section>
     <!-- About Me -->
-
+    <!-- My Project -->
+    <section class="project mt-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h3>My Project</h3>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- My Project -->
 
-    <!-- My Project -->
-
+    <!-- JS Script -->
+   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -136,5 +143,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <!-- JS Script -->
   </body>
 </html>
