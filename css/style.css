@@ -4,7 +4,7 @@
 }
 
 .jumbotron{
-    padding-bottom: 13%;
+    padding-bottom: 10.5rem;
     /* padding: 2rem 1rem; */
     background-color: #5C33F6;
     color: #fff;
@@ -23,5 +23,9 @@
 }
 
 .about{
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
+}
+
+.project{
+    padding-top: 4rem;
 }
