@@ -29,3 +29,50 @@
 .project{
     padding-top: 4rem;
 }
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: .1s ease-in-out;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.project .flutter:hover .image {
+    background-color: #38006b;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+
+.project .flutter:hover .middle {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.footer {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #5C33F6;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
