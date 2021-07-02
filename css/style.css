@@ -17,6 +17,11 @@
     font-size: 12px!important;
 }
 
+
+.btn1{
+    background-color: #222529;
+}
+
 .home-social-icon{
     flex-direction: row;
     align-self: flex-end;
