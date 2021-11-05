@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Manifest -->
+    <link href="manifest.json" rel="manifest"/>
 
     <title>Muhammad Vikri</title>
   </head>
@@ -66,7 +68,7 @@
                 class="btn btn-dark btn-lg"
                 data-aos="fade-up-right"
                 data-aos-delay="300"
-                onclick="window.location='mailto: muhammadvikrii99@gmail.com';"
+                onclick="window.location='mailto: vikrii85@gmail.com';"
               >
                 Let's Work
               </button>
@@ -215,6 +217,14 @@
       AOS.init();
     </script>
     <!-- End Script -->
+
+    <!-- Service Worker -->
+    <script>
+      if ('serviceWorker' in navigator){
+        navigator.serviceWorker.register('/service-worker.js');
+      }
+    </script>
+    <!-- End Worker -->
 
     <script
       type="module"
