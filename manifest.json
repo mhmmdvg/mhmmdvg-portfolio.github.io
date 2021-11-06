@@ -2,7 +2,6 @@
   "name": "Mhmmdvg",
   "short_name": "Mhmmdvg",
   "start_url": "/mhmmdvg.github.io/",
-  "scope": "/mhmmdvg.github.io/index.html",
   "icons": [
     {
       "src": "icons/manifest-icon-192.maskable.png",
